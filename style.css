@@ -26,6 +26,7 @@ a:hover {
     width: 10%;
     display: block;
     margin: auto;
+    margin-top: 10%;
 }
 .search_buttons {
     border: none;
