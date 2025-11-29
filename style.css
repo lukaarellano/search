@@ -1,0 +1,27 @@
+nav {
+    text-align: right;
+}
+#search_bar {
+    border-radius: 15px;
+    width: 20%;
+    height: 5%;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 1px black;
+}
+#search_area {
+    text-align: center;
+}
+#google_logo {
+    width: 10%;
+    display: block;
+    margin: auto;
+}
+.search_buttons {
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #3c4043;
+}
