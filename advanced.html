@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="advanced.css">
     <title>Google Advanced Search</title>
 </head>
 <body>
@@ -12,19 +12,31 @@
             <a href="search.html">Google Search</a>
             <a href="image.html">Google Image Search</a>
         </nav>
+        <img src="images/googlelogo.png">
     </footer>
     <main>
-        <form action="https://www.google.com/search">
-            <label>All of these words:</label>
-            <input type="text" name="as_q">
-            <label>This exact word or phrase:</label>
-            <input type="text" name="as_epq">
-            <label>Any of these words:</label>
-            <input type="text" name="as_oq">
-            <label>None of these words:</label>
-            <input type="text" name="as_eq">
-            <input type="submit" value="Google Search">
-        </form>
+        <div id='appbar'>
+            <label id="title_label">Advanced Search</label>
+        </div>
+        <div class="gy3Eif"></div><br>
+        <div id="form">
+            <label id='label'>Find pages with..</label> <label style='font-size: 15px; font-family: Roboto, Arial, sans-serif; margin-left: 450px;'class="search_box_labels">To do this in search box</label><br>
+            <form action="https://www.google.com/search">
+                <label>All of these words:</label> 
+                <input class='text_inputs' type="text" name="as_q">
+                <label class="search_box_labels">Type the important words:  tricolor rat terrier</label><br>
+                <label>This exact word or phrase:</label>
+                <input class='text_inputs' type="text" name="as_epq">
+                <label class="search_box_labels">Put exact words in quotes:  "rat terrier"</label><br>
+                <label>Any of these words:</label>
+                <input class='text_inputs' type="text" name="as_oq">
+                <label class="search_box_labels">Type OR between all the words you want:  miniature OR standard</label><br>
+                <label>None of these words:</label>
+                <input class='text_inputs' type="text" name="as_eq">
+                <label class="search_box_labels">Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</label><br>
+                <input id='submit' type="submit" value="Advanced Search">
+            </form>
+        </div>
     </main>
 </body>
 </html>
